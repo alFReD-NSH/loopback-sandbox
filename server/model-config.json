@@ -31,5 +31,21 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Faculty": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Lecturer": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Course": {
+    "dataSource": "db",
+    "public": true
+  },
+  "LecturerCourse": {
+    "dataSource": "db",
+    "public": false
   }
 }

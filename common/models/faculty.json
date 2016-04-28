@@ -1,0 +1,19 @@
+{
+  "name": "Faculty",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "lecturers": {
+      "type": "hasMany",
+      "model": "Lecturer",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

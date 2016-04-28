@@ -1,6 +1,9 @@
 {
   "db": {
+    "connector": "postgresql",
     "name": "db",
-    "connector": "memory"
+    "url": "postgresql://user:pass@localhost/test",
+    "ssl": true,
+    "poolSize": 9
   }
 }

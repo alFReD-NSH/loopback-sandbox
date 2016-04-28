@@ -1,0 +1,24 @@
+{
+  "name": "LecturerCourse",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "lecturer": {
+      "type": "belongsTo",
+      "model": "Lecturer",
+      "foreignKey": ""
+    },
+    "course": {
+      "type": "belongsTo",
+      "model": "Course",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
